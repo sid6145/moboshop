@@ -13,6 +13,7 @@ nav{
     background-color:#769fcd;
     color: white;
     font-family: 'Ubuntu', sans-serif;
+    width: 100%;
 }
 
 .logo a{
@@ -60,7 +61,10 @@ ul li a:hover{
     left: 55%;
     top: 30%;
     z-index: -1;
+    transition: 0.3s ease;
 }
+
+
 
 .header-text{
     color: rgb(38, 100, 102);
@@ -85,17 +89,50 @@ ul li a:hover{
     padding: 100px 50px;
     background-color: #769fcd;
     display: flex;
+    align-items:center  ;
     overflow-x: scroll;
 }
 
 .product{
-    padding: 50px 50px;
+    padding: 20px 20px;
     text-align: center;
-    background-color: white;
-    margin: 5px;
+    background-color: rgba(223, 235, 245, 0.3);
+    margin:0 10px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+
+.product:hover{
+    background-color: rgba(223, 235, 245, 0.8);;
+}
+
+.product button{
+    padding: 10px 60px;
+    border: 1px solid black;
+    background-color: #025abe9f;
+    border-radius: 8px;
+    transition: 0.2s ease-in;
+
+}
+
+.product button:hover{
+    background-color:rgba(223, 235, 245, 0.3) ;
+    color: black;
+    cursor: pointer;
+
 }
 
 .product img{
     width: 250px;
     height: 250px;
+    transition: 0.4s ease ;
+}
+
+.product img:hover{
+    transform: scale(1.1);
+}
+
+.deals{
+    padding: 250px 50px;
 }
