@@ -86,7 +86,7 @@ ul li a:hover{
 
 
 .phones{
-    padding: 100px 50px;
+    padding: 150px 50px;
     background-color: #769fcd;
     display: flex;
     align-items:center  ;
@@ -134,5 +134,10 @@ ul li a:hover{
 }
 
 .deals{
-    padding: 250px 50px;
+    padding: 300px 50px;
+}
+
+.services{
+    padding: 300px 50px;
+    background-color:  #769fcd;
 }
