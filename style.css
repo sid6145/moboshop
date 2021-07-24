@@ -134,7 +134,21 @@ ul li a:hover{
 }
 
 .deals{
-    padding: 300px 50px;
+    padding: 150px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.deal-item{
+    padding: 50px 50px;
+    text-align: center;
+    
+}
+
+.deal-item img{
+    width: 350px;
+    height: 350px;
 }
 
 .services{
