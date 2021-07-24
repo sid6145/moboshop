@@ -64,7 +64,7 @@ ul li a:hover{
 
 .header-text{
     color: rgb(38, 100, 102);
-    padding: 200px;
+    padding: 150px;
     text-align: left;
     width: 40%;
 }
@@ -82,7 +82,20 @@ ul li a:hover{
 
 
 .phones{
-    min-height: 60vh;
-    background-color: white;
+    padding: 100px 50px;
     background-color: #769fcd;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.product{
+    padding: 50px 50px;
+    text-align: center;
+    background-color: white;
+    margin: 5px;
+}
+
+.product img{
+    width: 250px;
+    height: 250px;
 }
