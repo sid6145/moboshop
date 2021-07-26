@@ -6,13 +6,26 @@
 
 
 /* Navbar */
-nav{
+.navbar{
     align-items: center;
     background-color:#769fcd;
     color: white;
     font-family: 'Ubuntu', sans-serif;
 }
 
+.navbar-brand{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
 
 .header{
     height: 80vh;
