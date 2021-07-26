@@ -7,13 +7,10 @@
 
 /* Navbar */
 nav{
-    display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color:#769fcd;
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    width: 100%;
 }
 
 
